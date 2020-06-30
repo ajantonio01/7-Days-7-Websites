@@ -4,13 +4,13 @@ let borderModify = document.getElementById('borderModify');
 //Get the id of the input box that displays results after modifying the border-radius values
 let resultBorderRadius = document.getElementById('resultCSS');
 
+//Get 4 border-radius 
 let inputTopLeft = document.getElementById('top-left');
 let inputTopRight = document.getElementById('top-right');
 let inputBottomLeft = document.getElementById('bottom-left');
 let inputBottomRight = document.getElementById('bottom-right');
 
 //Modify the 4 border-radius values of the box
-
 modifyBorderRadius = () => {
     borderModify.style.borderTopLeftRadius = inputTopLeft.value + 'px';
     borderModify.style.borderTopRightRadius = inputTopRight.value + 'px';

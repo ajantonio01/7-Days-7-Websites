@@ -1,5 +1,15 @@
+body {
+  background: url("../background-photo.jpg") no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  font-family: sans-serif;
+  color: #C3EFFF;
+}
+
 #borderModify {
-  background: #73AD21;
+  background: #9FFFD4;
   border-radius: 15px;
   padding: 20px; 
   width: 200px;
@@ -13,4 +23,6 @@ h1 {
 
 .wrapper {
     text-align: center;
+    font-family: sans-serif;
+    color: #C3EFFF;
 }
