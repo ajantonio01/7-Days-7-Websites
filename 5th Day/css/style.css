@@ -1,0 +1,19 @@
+body {
+    text-align: center;
+}
+
+h1 {
+    font-family: Arial;
+}
+
+button + button {
+    margin-left: 10px;
+}
+
+#logPanel {
+    display: inline-block;
+    height: 300px;
+    width: 450px;
+    border: 1px solid;
+    overflow: auto;
+}
